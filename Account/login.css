@@ -1,0 +1,119 @@
+html {
+    font-family: "Poppins" !important;
+    padding: 0.4vw;
+    user-select: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 96vh;
+    background: white;
+}
+
+.logo-src {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 15vw;
+}
+
+.logo-src img {
+   height: 40vw;
+   width: 40vw;
+   background: transparent;
+   position: absolute;
+}
+
+
+.login-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-input-wrapper {
+    z-index: 2;
+}
+
+.title-wrapper {
+    font-size: 2vw;
+    font-weight: 450;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-content .icon-left-wrapper {
+    position: absolute;
+}
+
+.icon-left-wrapper img {
+    height: 1.5vw;
+    width: 1.5vw;
+}
+
+
+
+.login-content input[type="password"] {
+    outline: none;
+    border: 0.2vw solid royalblue;
+    height: 2vw;
+    width: 20vw;
+    font-family: "Poppins" !important;
+    font-size: 1.2vw;
+
+}
+
+
+.login-input-main {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.hide-icon-wrapper {
+    position: absolute;
+    right: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-input-main{
+    position: relative;
+}
+
+.left-icon-class {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0.4vw;
+}
+
+.hide-icon-class {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0.4vw;
+}
+
+.hide-icon-class img {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.forgot-password-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;
+    padding-top: 1.2vw;
+}
+
+
